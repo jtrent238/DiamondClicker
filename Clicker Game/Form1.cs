@@ -37,7 +37,7 @@ namespace Clicker_Game
             this.Achivements.Start();
             this.AutoSave.Start();
             this.Text = "Diamond Clicker v0.1";
-            this.button1.Image = Image.FromFile("Images\\diamond.png").GetThumbnailImage(100, 100, null, IntPtr.Zero);
+            //this.button1.Image = Image.FromFile("Images\\diamond.png").GetThumbnailImage(100, 100, null, IntPtr.Zero);
         }
         
         
@@ -55,7 +55,7 @@ namespace Clicker_Game
                 diamonds = diamonds - minercost;
                 minercost = 35;
                 miners++;
-                minercost = minercost  * miners;
+                minercost = minercost * miners;
                 miners--;
                 
             }
@@ -143,7 +143,7 @@ namespace Clicker_Game
                 this.button6.Enabled = false;
                 System.IO.StreamWriter file = new System.IO.StreamWriter("c:\\Users\\" + Environment.UserName + "\\Documents\\DiamondClicker.dat");
                 string lines = "" + diamondbinary + "\n" + minersbinary + "\n" + drillsbinary + "\n" + makersbinary + "\n" + quarrysbinary + "\n0\n0\n0\n0";
-                await Task.Delay(500);
+                await Task.Delay(100);
                 file.WriteLine(lines);
                 file.Close();
                 this.button6.Enabled = true;
@@ -152,7 +152,7 @@ namespace Clicker_Game
             catch (Exception ex)
             {
                 this.Catch.Text = "Error Saving Try again later";
-                this.Catch.Text = ex.ToString();
+                //this.Catch.Text = ex.ToString();
             }
             
         }
@@ -191,7 +191,7 @@ namespace Clicker_Game
                         minercost = 35;
                     }
                     else{
-                    minercost = 25;
+                        minercost = 25;
                     }
                     if (makers > 1)
                     {
@@ -230,8 +230,8 @@ namespace Clicker_Game
                 }
                 catch(Exception ex)
                 {
-                    this.button6.Text = "The save you made was in a old version cannot read";
-                    this.Catch.Text = ex.ToString();
+                    this.button6.Text = "The save you made was in a old version and cannot be read";
+                    //this.Catch.Text = ex.ToString
                     this.button6.Text = "Load Saved Game";
                 }
             }
