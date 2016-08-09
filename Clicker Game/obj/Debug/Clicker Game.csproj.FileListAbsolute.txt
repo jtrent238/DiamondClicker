@@ -1,0 +1,11 @@
+C:\Users\trent\GitHub\DiamondClicker\Clicker Game\bin\Debug\Diamond Clicker.exe.config
+C:\Users\trent\GitHub\DiamondClicker\Clicker Game\bin\Debug\Diamond Clicker.exe
+C:\Users\trent\GitHub\DiamondClicker\Clicker Game\bin\Debug\Diamond Clicker.pdb
+C:\Users\trent\GitHub\DiamondClicker\Clicker Game\obj\Debug\Clicker Game.csprojResolveAssemblyReference.cache
+C:\Users\trent\GitHub\DiamondClicker\Clicker Game\obj\Debug\Clicker_Game.AchivementForm.resources
+C:\Users\trent\GitHub\DiamondClicker\Clicker Game\obj\Debug\Clicker_Game.Form1.resources
+C:\Users\trent\GitHub\DiamondClicker\Clicker Game\obj\Debug\Clicker_Game.Form2.resources
+C:\Users\trent\GitHub\DiamondClicker\Clicker Game\obj\Debug\Clicker_Game.Properties.Resources.resources
+C:\Users\trent\GitHub\DiamondClicker\Clicker Game\obj\Debug\Clicker Game.csproj.GenerateResource.Cache
+C:\Users\trent\GitHub\DiamondClicker\Clicker Game\obj\Debug\Diamond Clicker.exe
+C:\Users\trent\GitHub\DiamondClicker\Clicker Game\obj\Debug\Diamond Clicker.pdb
