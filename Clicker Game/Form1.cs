@@ -274,19 +274,21 @@ namespace Clicker_Game
         }
         public static void RestartSave()
         {
-            diamonds =1;
-            miners = 1;
-            drills = 1;
-            makers = 1;
-            quarrys = 1;
+            diamonds =0;
+            miners = 0;
+            drills = 0;
+            makers = 0;
+            quarrys = 0;
             minercost = 25;
             makercost = 1000;
             drillcost = 200;
             quarrycost = 12000;
-            minercost = minercost * miners;
-            makercost = makercost * makers;
-            drillcost = drillcost * drills;
-            quarrycost = quarrycost * quarrys;
+            
+            //Removed this so it wont change price to 0
+            //minercost = minercost * miners;
+            //makercost = makercost * makers;
+            //drillcost = drillcost * drills;
+            //quarrycost = quarrycost * quarrys;
         }
         private void DrawItems_Tick(object sender, EventArgs e)
         {
