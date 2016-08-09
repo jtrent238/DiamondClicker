@@ -283,10 +283,12 @@ namespace Clicker_Game
             makercost = 1000;
             drillcost = 200;
             quarrycost = 12000;
-            minercost = minercost * miners;
-            makercost = makercost * makers;
-            drillcost = drillcost * drills;
-            quarrycost = quarrycost * quarrys;
+            
+            //Removed this so it wont change price to 0
+            //minercost = minercost * miners;
+            //makercost = makercost * makers;
+            //drillcost = drillcost * drills;
+            //quarrycost = quarrycost * quarrys;
         }
         private void DrawItems_Tick(object sender, EventArgs e)
         {
