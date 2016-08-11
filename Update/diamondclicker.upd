@@ -1,0 +1,6 @@
+Name=Diamond Clicker
+Version=1.1
+URL=http://KristinnVikarJ.github.io/DiamondClicker/update/Diamond_Clicker.exe
+Require Confirm=Yes
+Confirm Title=Warning!
+Confirm Message=Are you sure you want to update, there may be bugs? Click OK to agree
